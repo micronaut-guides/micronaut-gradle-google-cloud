@@ -10,7 +10,7 @@ include::{sourceDir}/build.gradle[tag=buildscript]
 ----
 
 Apply the plugin and specify a deployment version and the project ID. 
-When you created the Project in the Google Cloud Dashboard you got the Project ID. Notice I didn’t use dots on the version number.
+When you created the Project in the Google Cloud Dashboard you got the Project ID. Notice, I didn’t use dots on the version number.
 
 
 [source,groovy]
