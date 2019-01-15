@@ -1,0 +1,9 @@
+For the version which you would like to inspect, select Logs in the diagnose dropdown:
+
+image::logs.png[]
+
+Application log messages written to stdout and stderr are automatically collected and can be
+viewed in the Logs Viewer.
+
+Check https://cloud.google.com/appengine/docs/flexible/java/writing-application-logs[Writing Application Logs]
+documentation to read more about logs in the Flexible Environment.

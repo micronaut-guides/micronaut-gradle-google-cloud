@@ -1,0 +1,34 @@
+To get started do the following:
+
+https://github.com/micronaut-guides/micronaut-gradle-google-cloud/archive/master.zip[Download]
+and unzip the source or Clone the Git repository:
+
+[source, bash]
+----
+git clone https://github.com/micronaut-guides/micronaut-gradle-google-cloud.git
+----
+
+This Micronaut guides contain two folders:
+
+- `initial` Initial project. A simple Micronaut app as you may have created with Micronaut Command Line interface.
+
+- `complete` A completed example. It is the result of working through the steps presented by the guide and applying those changes to the initial folder.
+
+To complete the guide, go to the initial folder
+
+`cd initial`
+
+and follow the instructions in the next sections.
+
+or you can go right to the completed example:
+
+`cd complete`
+
+Although you can go right to the completed example, in order to deploy the app you
+would need to complete several configuration steps in Google Cloud:
+
+- Signup for Cloud SDK and install Cloud SDK.
+
+- Initialize an App Engine application within the current Google Cloud project.
+
+Checkout the guide steps for more details.

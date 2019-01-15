@@ -1,0 +1,1 @@
+If you want to learn more about Google Cloud and Micronaut integration, checkout the codelab https://codelabs.developers.google.com/codelabs/cloud-micronaut-kubernetes/[Deploy a Micronaut application containerized with Jib to Google Kubernetes Engine].

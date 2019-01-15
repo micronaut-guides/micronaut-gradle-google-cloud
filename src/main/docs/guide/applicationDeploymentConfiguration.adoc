@@ -1,0 +1,15 @@
+To deploy to Google App Engine, we need to add the file src/main/appengine/app.yaml
+
+We are going to configure the https://cloud.google.com/appengine/docs/flexible/java/dev-java-only[Java 8 runtime] in the Flexible environment
+
+____
+The Java 8 runtime does not include any web-serving framework. The only requirement is that your app should listen and respond on port 8080. The sample code here shows how you can add your own framework, such as Spring Boot, to the Java 8 runtime.
+____
+
+It describes the application’s deployment configuration:
+
+[source,yaml]
+.src/main/appengine/app.yaml
+----
+include::{sourceDir}/src/main/appengine/app.yaml[]
+----
