@@ -14,7 +14,7 @@ plugins {
     id "io.spring.dependency-management" version "1.0.6.RELEASE"
     id "com.github.johnrengelman.shadow" version "4.0.3"
     id "net.ltgt.apt-eclipse" version "0.18"
-    id "net.ltgt.apt-idea" version "0.18"	
+    id "net.ltgt.apt-idea" version "0.18"
 }
 
 apply plugin:"application"
@@ -35,6 +35,7 @@ repositories {
     mavenLocal()
     mavenCentral()
     maven { url "https://jcenter.bintray.com" }
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
 }
 
 dependencyManagement {
